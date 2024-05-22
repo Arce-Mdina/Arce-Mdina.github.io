@@ -1,9 +1,8 @@
-# ⚠️ UNDER CONSTRUCTION ⚠️
-This domain is under construction. Come back another time! :)
+# React + Vite
 
-My logo:
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-<img 
-  src="https://github.com/Arce-Mdina/Arce-Mdina.github.io/assets/168582842/2c9da087-c305-43e2-94c2-5b040e32bd15"
-  style="width: 100px; height: auto;"
-/>
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
