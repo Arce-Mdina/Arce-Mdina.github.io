@@ -4,8 +4,10 @@ function App() {
   
   return (
     <>
-      <div>
-        <h1>Hi! I am Arce-Mdina!</h1>
+      <div className="header">
+        <h1><span className="header-1">Hi!</span> I am William!</h1>
+        <br></br>
+        <h2>Welcome to my <span className="header-2">Portfolio</span></h2>
       </div>
     </>
   )
