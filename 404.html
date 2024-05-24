@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0; URL=/" />
+  <script type="text/javascript">
+    // JavaScript to handle SPA routing for GitHub Pages
+    (function() {
+      var currentUrl = window.location.pathname;
+
+      // If the URL path is not the root, modify the URL
+      if (currentUrl !== '/') {
+        var newUrl = '/' + location.hash.replace('#!', '');
+        // Redirect to the root with the hash fragment
+        history.replaceState(null, null, newUrl);
+      }
+    })();
+  </script>
+</head>
+<body>
+</body>
+</html>
