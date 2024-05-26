@@ -4,7 +4,12 @@
     /* font-family:Arial, Helvetica, sans-serif; */
     margin: 0 auto;
     font-family: "Open Sans", "sans-serif";
+    text-align: center;
 }
+
+/* body {
+    background-color:rgb(81, 90, 109);
+} */
 
 .header {
    
@@ -44,4 +49,19 @@
 
 .header-1:hover {
     color:dodgerblue;
+}
+
+.content {
+    width:90vw;
+    /* border:1px solid black; */
+    justify-content: center;
+}
+
+.buttons {
+    border:none;
+    border-radius: 10px;
+    padding:7px;
+    background-color:rgb(74, 164, 255);
+    color:white;
+    text-align:center;
 }

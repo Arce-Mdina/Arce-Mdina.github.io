@@ -1,5 +1,6 @@
 import './App.css'
 import Education from './components/Education'
+import Buttons from './components/Buttons'
 
 function App() {
   
@@ -15,7 +16,10 @@ function App() {
 
       <br></br>
 
-      <Education />
+      <div className="content">
+
+        <Education />
+      </div>
     </>
   )
 }
