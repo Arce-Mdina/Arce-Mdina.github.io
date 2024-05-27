@@ -39,7 +39,7 @@
     position:absolute;
 }
 
-.header-1, .header-2 {
+.header-1, .header-2, .header-3 {
     transition: 0.3s ease-in;
 }
 
@@ -49,6 +49,10 @@
 
 .header-1:hover {
     color:dodgerblue;
+}
+
+.header-3:hover {
+    color:forestgreen;
 }
 
 .content {
@@ -65,3 +69,11 @@
     color:white;
     text-align:center;
 }
+
+/* .react-logo {
+    display: none;
+}
+
+.react-name:hover + .react-logo {
+    display:block;
+} */
