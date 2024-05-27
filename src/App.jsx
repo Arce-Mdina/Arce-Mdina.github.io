@@ -1,6 +1,7 @@
 import './App.css'
-import Education from './components/Education'
-import Buttons from './components/Buttons'
+import Education from './sections/Education'
+import AboutMe from './sections/AboutMe'
+import Padding from './components/Padding'
 
 function App() {
   
@@ -20,6 +21,12 @@ function App() {
 
       <div className="content">
 
+        {/* About Me */}
+        <AboutMe />
+
+        <Padding padding="35px"/>
+
+        {/* Education */}
         <Education />
       </div>
     </>
