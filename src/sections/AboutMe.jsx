@@ -1,10 +1,21 @@
 import React from 'react'
+import Card from '../components/Card'
 
 const AboutMe = () => {
+
+    const aboutMeCardOne = (
+        <>
+            <h1>Winner of </h1>
+        </>
+    );
+
   return (
-    <div>
-        <h1>A little bit about me</h1>
-    </div>
+    <>
+        <div className="card-grid">
+            <Card content={aboutMeCardOne}/>
+            <Card content={aboutMeCardOne}/>
+        </div>
+    </>
   )
 }
 
