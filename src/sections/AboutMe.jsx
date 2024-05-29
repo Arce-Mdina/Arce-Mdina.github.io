@@ -9,11 +9,17 @@ const AboutMe = () => {
         </>
     );
 
+    const aboutMeCardTwo = (
+        <>
+            <h1>Created a Python Learning Base on GitHub</h1>
+        </>
+    );
+
   return (
     <>
         <div className="card-grid">
             <Card content={aboutMeCardOne}/>
-            <Card content={aboutMeCardOne}/>
+            <Card content={aboutMeCardTwo}/>
         </div>
     </>
   )
