@@ -9,7 +9,7 @@ function App() {
     <>
       <div className="header">
         <div className="welcome-message">
-          <h1>Hi! I am William</h1>
+          <h1>Hi! I am William! I am also known as Arce-Mdina online!</h1>
         </div>
         <div className="title">
           <h1>Welcome to my <span className="header-2">Portfolio</span></h1>

@@ -91,18 +91,24 @@
     display:none;
 }
 
+span.highlight {
+    /* color:rgb(248, 183, 85); */
+    color:rgb(251, 201, 0);
+}
+
 .card {
-    background-color: rgb(19, 2, 51);
-    /* background-color: #0a7ea4ff; */
+    /* background-color: rgb(19, 2, 51); */
+    background-color: #0a7ea4ff;
     color:white;
     padding:30px;
     width:42vw;
     border-radius:26px;
     height:auto;
+    margin-bottom: 20px;
 }
 
 .hello-message {
-    font-size:1.5vw;
+    font-size: clamp(16px, calc(20px + (36–20) * (100vw - 768px)/(1920–768)), 48px);
 }
 
 .card-grid {
@@ -110,22 +116,25 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
-@media only screen and (max-width: 900px) {
-    .hello-message {
-        font-size:2.5vw;
-    }
+@media only screen and (max-width: 1189px) {
 
     .card {
-        padding:15px;
-        font-size:0.5rem;
-        border-radius:16px;
+        padding:20px;
+        border-radius:20px;
+        font-size:0.6rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    .card {
+        padding:10px;
+        border-radius:15px;
+        font-size:0.6rem;
     }
 }
 
 @media only screen and (max-width: 425px) {
-    .hello-message {
-        font-size:1.3rem;
-    }
 
     .card-grid {
         display: grid;
@@ -137,7 +146,7 @@
         width:70vw;
         padding:23px;
         border-radius:23px;
-        font-size:0.7rem;
+        font-size:0.5rem;
     }
 
     .welcome-message {
