@@ -1,6 +1,7 @@
 import React from 'react'
 import Padding from '../components/Padding'
-import DCISVid from '../assets/DCIS-Video.webm'
+import DCISVid from '../assets/DCISVid.mp4'
+import NAISVid from '../assets/NAIS Dublin Homepage Snippet.mp4'
 
 const Education = () => {
 
@@ -16,7 +17,9 @@ const Education = () => {
   );
 
   const naisEducation = (
-    <></>
+    <>
+      <video playsInline loop autoPlay={true} src={NAISVid} style={{ width: "25vw", height: "auto", borderRadius: "16px" }}/>
+    </>
   );
 
   return (
