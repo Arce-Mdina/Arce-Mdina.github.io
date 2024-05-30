@@ -1,7 +1,7 @@
 import React from 'react'
 import Padding from '../components/Padding'
-import DCISVid from '../assets/DCIS.png'
-import NAISVid from '../assets/NAIS.png'
+import DCISVid from '../assets/DCIS.webp'
+import NAISVid from '../assets/NAIS.webp'
 
 const Education = () => {
 
