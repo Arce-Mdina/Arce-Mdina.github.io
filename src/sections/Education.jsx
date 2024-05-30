@@ -1,12 +1,14 @@
 import React from 'react'
 import Padding from '../components/Padding'
+import DCISVid from '../assets/DCIS-Video.webm'
 
 const Education = () => {
 
   const dcisEducation = (
     <>
       <div>
-        <video playsInline loop autoPlay={true} src="https://res.cloudinary.com/do5pfqw8l/video/upload/c_crop,g_west,h_720,w_720,x_200,q_auto:best,f_auto:video/assets//education/DCIS-Video" style={{ width: "25vw", height: "auto", borderRadius: "16px" }}/>
+      {/* https://res.cloudinary.com/do5pfqw8l/video/upload/c_crop,g_west,h_720,w_720,x_200,q_auto:best,f_auto:video/assets//education/DCIS-Video */}
+        <video playsInline loop autoPlay={true} src={DCISVid} style={{ width: "25vw", height: "auto", borderRadius: "16px" }}/>
         <Padding padding="10px"/>
         <p>In 2019, I joined Dover Court International School Singapore</p>
       </div>
