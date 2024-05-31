@@ -33,6 +33,9 @@ const Education = () => {
         <div>{dcisEducation}</div>
         <div>{naisEducation}</div>
       </div>
+
+
+      <Padding padding="50px"/>
     </>
   )
 }
