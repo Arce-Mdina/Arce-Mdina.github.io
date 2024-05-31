@@ -11,6 +11,7 @@ const Education = () => {
       {/* https://res.cloudinary.com/do5pfqw8l/video/upload/c_crop,g_west,h_720,w_720,x_200,q_auto:best,f_auto:video/assets//education/DCIS-Video */}
         <img playsInline loop autoPlay={true} src={DCISVid} style={{ width: "25vw", height: "auto", borderRadius: "16px" }} alt="DCIS"/>
         <Padding padding="10px"/>
+        <h1>DCIS</h1>
         <p>In 2019, I joined Dover Court International School Singapore</p>
       </div>
     </>
@@ -19,6 +20,8 @@ const Education = () => {
   const naisEducation = (
     <>
       <img playsInline loop autoPlay={true} src={NAISVid} style={{ width: "25vw", height: "auto", borderRadius: "16px" }} alt="NAIS"/>
+      <Padding padding="10px"/>
+      <h1>NAIS</h1>
     </>
   );
 
