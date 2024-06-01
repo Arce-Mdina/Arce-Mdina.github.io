@@ -54,7 +54,7 @@ const Education = () => {
       <div>
       {/* https://res.cloudinary.com/do5pfqw8l/video/upload/c_crop,g_west,h_720,w_720,x_200,q_auto:best,f_auto:video/assets//education/DCIS-Video */}
         <img src={DCISVid} style={{ width: "25vw", height: "auto", borderRadius: "16px" }} alt="DCIS"/>
-        <Padding padding="10px"/>
+        <Padding padding="5px"/>
         <h1>DCIS</h1>
 
         <br></br>
@@ -69,7 +69,7 @@ const Education = () => {
   const naisEducation = (
     <>
       <img src={NAISVid} style={{ width: "25vw", height: "auto", borderRadius: "16px" }} alt="NAIS"/>
-      <Padding padding="10px"/>
+      <Padding padding="5px"/>
       <h1>NAIS</h1>
       <br></br>
       <p>My <span onClick={openNAISAccomplishmentsOverlay} style={{ color: "steelblue", cursor: "pointer" }}>accomplishments</span></p>
@@ -83,8 +83,8 @@ const Education = () => {
       <h1 className="section-heading">My Education</h1>
       <Padding padding="25px"/>
       <div className="card-grid">
-        <div style={{ width: "42vw", marginBottom: "15px" }}>{dcisEducation}</div>
-        <div style={{ width: "42vw", marginBottom: "15px" }}>{naisEducation}</div>
+        <div style={{ width: "42vw", marginBottom: "50px" }}>{dcisEducation}</div>
+        <div style={{ width: "42vw", marginBottom: "50px" }}>{naisEducation}</div>
       </div>
 
 
