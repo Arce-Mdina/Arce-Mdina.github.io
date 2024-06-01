@@ -5,44 +5,63 @@ import NAISVid from '../assets/NAIS.webp'
 
 import Overlay from '../components/Overlay';
 
-import { educationInfo } from './data-education';
+import { dcisInfo, naisInfo } from './data-education';
 
 const Education = () => {
 
-  const [accomplishmentOverlay, setAccomplishmentOverlay] = useState(false)
+  const [dcisAccomplishmentOverlay, setDCISAccomplishmentOverlay] = useState(false)
+  const [naisAccomplishmentOverlay, setNAISAccomplishmentOverlay] = useState(false)
 
-  const openAccomplishmentsOverlay = () => {
-    setAccomplishmentOverlay(true)
+  const openDCISAccomplishmentsOverlay = () => {
+    setDCISAccomplishmentOverlay(true)
   }
 
-  const closeAccomplishmentsOverlay = () => {
-    setAccomplishmentOverlay(false)
+  const closeDCISAccomplishmentsOverlay = () => {
+    setDCISAccomplishmentOverlay(false)
   }
 
-  const accomplishments = educationInfo.map(education => 
-    <div key={education.id} id={education.id} style={{ textAlign: "left" }}>
+  const openNAISAccomplishmentsOverlay = () => {
+    setNAISAccomplishmentOverlay(true)
+  }
+
+  const closeNAISAccomplishmentsOverlay = () => {
+    setNAISAccomplishmentOverlay(false)
+  }
+
+  const dcisAccomplishments = dcisInfo.map(dcis => 
+    <div key={dcis.id} id={dcis.id}>
       <hr></hr>
       <Padding padding="10px"/>
-      <h1>{education.heading}</h1>
+      <h1>{dcis.heading}</h1>
       <br></br>
-      <div>{education.information}</div>
+      <div>{dcis.information}</div>
       <Padding padding="10px"/>
+    </div>
+  )
+
+  const naisAccomplishment = naisInfo.map(nais => 
+    <div key={nais.id} id={nais.id}>
+      <hr></hr>
+      <Padding padding="10px"/>
+      <h1>{nais.heading}</h1>
+      <br></br>
+      <div>{nais.information}</div>
     </div>
   )
 
   const dcisEducation = (
     <>
-      <div>
+      <div style={{ border: "1px solid black" }}>
       {/* https://res.cloudinary.com/do5pfqw8l/video/upload/c_crop,g_west,h_720,w_720,x_200,q_auto:best,f_auto:video/assets//education/DCIS-Video */}
         <img src={DCISVid} style={{ width: "25vw", height: "auto", borderRadius: "16px" }} alt="DCIS"/>
         <Padding padding="10px"/>
         <h1>DCIS</h1>
 
+        <br></br>
         
-        
-        <p>See my accomplishments <span onClick={openAccomplishmentsOverlay} style={{ color: "steelblue", cursor: "pointer" }}>here</span></p>
+        <p>My <span onClick={openDCISAccomplishmentsOverlay} style={{ color: "steelblue", cursor: "pointer" }}>accomplishments</span></p>
 
-        <Overlay type={accomplishmentOverlay} function={closeAccomplishmentsOverlay} heading="Accomplishments" content={accomplishments}/>
+        <Overlay type={dcisAccomplishmentOverlay} function={closeDCISAccomplishmentsOverlay} heading="Accomplishments - DCIS" content={dcisAccomplishments}/>
       </div>
     </>
   );
@@ -52,7 +71,10 @@ const Education = () => {
       <img src={NAISVid} style={{ width: "25vw", height: "auto", borderRadius: "16px" }} alt="NAIS"/>
       <Padding padding="10px"/>
       <h1>NAIS</h1>
-      <p>On April 8th, 2024, I officially joined NAISD, and began a new school chapter of my life in Ireland.</p>
+      <br></br>
+      <p>My <span onClick={openNAISAccomplishmentsOverlay} style={{ color: "steelblue", cursor: "pointer" }}>accomplishments</span></p>
+
+      <Overlay type={naisAccomplishmentOverlay} function={closeNAISAccomplishmentsOverlay} heading="Accomplishments - NAIS" content={naisAccomplishment}/>
     </>
   );
 
@@ -61,8 +83,8 @@ const Education = () => {
       <h1 className="section-heading">My Education</h1>
       <Padding padding="25px"/>
       <div className="card-grid">
-        <div>{dcisEducation}</div>
-        <div>{naisEducation}</div>
+        <div style={{ width: "42vw", marginBottom: "15px" }}>{dcisEducation}</div>
+        <div style={{ width: "42vw", marginBottom: "15px" }}>{naisEducation}</div>
       </div>
 
 

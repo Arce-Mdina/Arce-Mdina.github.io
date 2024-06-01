@@ -1,4 +1,5 @@
-export const educationInfo = [{
+// DCIS 
+export const dcisInfo = [{
     id: 0,
     heading: "House Captain",
     information: (
@@ -11,6 +12,16 @@ export const educationInfo = [{
 }, {
     id: 1,
     heading: "Student Council",
+    information: (
+        <></>
+    ),
+}]
+
+
+// NAIS
+export const naisInfo = [{
+    id: 0,
+    heading: "",
     information: (
         <></>
     ),
