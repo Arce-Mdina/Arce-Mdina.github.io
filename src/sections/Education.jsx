@@ -56,6 +56,7 @@ const Education = () => {
         <img src={DCISVid} style={{ width: "25vw", height: "auto", borderRadius: "16px" }} alt="DCIS"/>
         <Padding padding="5px"/>
         <h1>DCIS</h1>
+        <p>Dover Court International School is a British international school in Singapore, catering to students from ages 3 to 18. It offers the National Curriculum for England, International Primary Curriculum (IPC), iGCSE & GCSE, and the IBDP.</p>
 
         <br></br>
         
@@ -71,6 +72,7 @@ const Education = () => {
       <img src={NAISVid} style={{ width: "25vw", height: "auto", borderRadius: "16px" }} alt="NAIS"/>
       <Padding padding="5px"/>
       <h1>NAIS</h1>
+      <p>Nord Anglia International School Dublin is an international school in Dublin, Ireland, serving students from ages 3 to 18. It offers the International Baccalaureate programmes across all levels.</p>
       <br></br>
       <p>My <span onClick={openNAISAccomplishmentsOverlay} style={{ color: "steelblue", cursor: "pointer" }}>accomplishments</span></p>
 
@@ -83,8 +85,8 @@ const Education = () => {
       <h1 className="section-heading">My Education</h1>
       <Padding padding="25px"/>
       <div className="card-grid">
-        <div style={{ width: "42vw", marginBottom: "50px" }}>{dcisEducation}</div>
-        <div style={{ width: "42vw", marginBottom: "50px" }}>{naisEducation}</div>
+        <div className="schools">{dcisEducation}</div>
+        <div className="schools">{naisEducation}</div>
       </div>
 
 
