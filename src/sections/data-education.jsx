@@ -1,10 +1,10 @@
 export const educationInfo = [{
     id: 0,
-    heading: "House Captains",
+    heading: "House Captain",
     information: (
         <>
             <div>
-                I was House Captain of Ubin for 4 years
+                I was House Captain of Ubin for 4 years.
             </div>
         </>
     ),

@@ -37,11 +37,10 @@ const Education = () => {
         <img src={DCISVid} style={{ width: "25vw", height: "auto", borderRadius: "16px" }} alt="DCIS"/>
         <Padding padding="10px"/>
         <h1>DCIS</h1>
-        {/* <p>
-          In 2019, I joined Dover Court International School Singapore. Over the course of 4.5 years there, I made a lot of friends, and studied subjects such as Computer Science, Business Studies, Global Citizenship (Politics), French etc.
-        </p>
-        <p>I also made some big changes to the school. For 4 years, I was a House Captain, organising House challenges that bring people together. For 2 years, I was a member of the Student Council, I helped the school to familiarise and change from Google platforms into Microsoft platforms by creating 2 out of 4 tutorial videos.</p> */}
-        <p>See more of accomplishments <span onClick={openAccomplishmentsOverlay} style={{ color: "ironblue" }}>here</span></p>
+
+        
+        
+        <p>See my accomplishments <span onClick={openAccomplishmentsOverlay} style={{ color: "steelblue", cursor: "pointer" }}>here</span></p>
 
         <Overlay type={accomplishmentOverlay} function={closeAccomplishmentsOverlay} heading="Accomplishments" content={accomplishments}/>
       </div>
