@@ -51,7 +51,7 @@ const Education = () => {
 
   const dcisEducation = (
     <>
-      <div style={{ border: "1px solid black" }}>
+      <div>
       {/* https://res.cloudinary.com/do5pfqw8l/video/upload/c_crop,g_west,h_720,w_720,x_200,q_auto:best,f_auto:video/assets//education/DCIS-Video */}
         <img src={DCISVid} style={{ width: "25vw", height: "auto", borderRadius: "16px" }} alt="DCIS"/>
         <Padding padding="10px"/>
