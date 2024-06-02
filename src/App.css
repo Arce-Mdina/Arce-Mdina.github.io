@@ -179,6 +179,12 @@ span.highlight {
     margin-bottom: 60px;
 }
 
+.image {
+    width: 25vw; 
+    height: auto; 
+    border-radius: 16px;
+}
+
 @media only screen and (max-width: 1189px) {
 
     .card {
@@ -202,6 +208,10 @@ span.highlight {
     .card-grid {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .image {
+        width:75vw;
     }
 
     .card {

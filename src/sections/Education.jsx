@@ -53,7 +53,7 @@ const Education = () => {
     <>
       <div>
       {/* https://res.cloudinary.com/do5pfqw8l/video/upload/c_crop,g_west,h_720,w_720,x_200,q_auto:best,f_auto:video/assets//education/DCIS-Video */}
-        <img src={DCISVid} style={{ width: "25vw", height: "auto", borderRadius: "16px" }} alt="DCIS"/>
+        <img src={DCISVid} className="image" alt="DCIS"/>
         <Padding padding="5px"/>
         <h1>DCIS</h1>
         <p>Dover Court International School is a British international school in Singapore, catering to students from ages 3 to 18. It offers the National Curriculum for England, International Primary Curriculum (IPC), iGCSE & GCSE, and the IBDP.</p>
@@ -69,7 +69,7 @@ const Education = () => {
 
   const naisEducation = (
     <>
-      <img src={NAISVid} style={{ width: "25vw", height: "auto", borderRadius: "16px" }} alt="NAIS"/>
+      <img src={NAISVid} className="image" alt="NAIS"/>
       <Padding padding="5px"/>
       <h1>NAIS</h1>
       <p>Nord Anglia International School Dublin is an international school in Dublin, Ireland, serving students from ages 3 to 18. It offers the International Baccalaureate programmes across all levels.</p>
