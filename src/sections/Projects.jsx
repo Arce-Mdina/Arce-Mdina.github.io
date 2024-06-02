@@ -6,6 +6,7 @@ const Projects = () => {
     const projects = projectsInfo.map(project => 
 
         <div key={project.id}>
+            <h2>{project.heading}</h2>
             {project.information}
         </div>
     

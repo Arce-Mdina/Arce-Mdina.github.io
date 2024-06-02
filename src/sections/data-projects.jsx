@@ -1,5 +1,5 @@
 export const projectsInfo = [{
-    id: 0,
-    heading: "Project 1",
+    id: "portfolio",
+    heading: "Portfolio (this site)",
     information: "info"
 }]
