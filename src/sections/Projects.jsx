@@ -13,7 +13,7 @@ const Projects = () => {
 
   return (
     <div>
-        <h1>My Projects</h1>
+        <h1 className="section-heading">My Projects</h1>
         <div className="card-grid">
             {projects}
         </div>
