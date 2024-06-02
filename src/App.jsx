@@ -3,6 +3,8 @@ import Education from './sections/Education'
 import AboutMe from './sections/AboutMe'
 import Padding from './components/Padding'
 
+import Projects from './sections/Projects'
+
 function App() {
   
   return (
@@ -31,6 +33,11 @@ function App() {
 
         {/* Education */}
         <Education />
+
+        <Padding padding="35px"/>
+
+        {/* Projects */}
+        <Projects />
       </div>
     </>
   )
