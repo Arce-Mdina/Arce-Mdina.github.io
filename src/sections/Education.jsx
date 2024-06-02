@@ -90,7 +90,7 @@ const Education = () => {
       </div>
 
 
-      <Padding padding="50px"/>
+      
     </>
   )
 }

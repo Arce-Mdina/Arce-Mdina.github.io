@@ -38,6 +38,10 @@ function App() {
 
         {/* Projects */}
         <Projects />
+
+
+
+        <Padding padding="50px"/>
       </div>
     </>
   )
