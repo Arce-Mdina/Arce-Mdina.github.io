@@ -7,7 +7,7 @@ const Projects = () => {
     const projects = projectsInfo.map(project => 
 
         <div key={project.id}>
-            <img src={project.image} className="image."/>
+            <img src={project.image} className="image"/>
             <h2>{project.heading}</h2>
             {project.information}
             <Padding padding="40px"/>
