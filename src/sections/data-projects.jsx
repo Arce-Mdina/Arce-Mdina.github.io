@@ -10,4 +10,10 @@ export const projectsInfo = [{
     information: (
         <></>
     ),
+}, {
+    id: "python-guide",
+    heading: "Python Guide",
+    information: (
+        <></>
+    )
 }]
