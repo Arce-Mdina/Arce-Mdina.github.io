@@ -20,6 +20,7 @@ const Projects = () => {
   return (
     <div>
         <h1 className="section-heading">My Projects</h1>
+        <h3>(Outside of school)</h3>
         <Padding padding="25px"/>
         <div className="card-grid">
             {projects}
