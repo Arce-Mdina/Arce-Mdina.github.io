@@ -25,6 +25,32 @@ export const dcisInfo = [{
             </div>
         </>
     ),
+}, {
+    id: 2,
+    heading: "UKMT Maths Challenges",
+    information: (
+        <>
+            <div>In Year 8 and 9, I entered the UKMT Maths Competition. I won the Gold Award and the Silver Award respectly.</div>
+        </>
+    ),
+}, {
+    id: 3,
+    heading: "MUN Conference Year 2022-23",
+    information: (
+        <>
+            <div>I joined MUN and represented the United States of America. We discovered topics such as Inflation & the Tawain Strait Conflict</div>
+        </>
+    )
+}, {
+    id: 4,
+    heading: "Learning to Code",
+    information: (
+        <>
+            <div>Although not entirely of the school's curriculum, I found a friend who is amazing at coding and he inspired me to learn more.</div>
+            <br></br>
+            <div>I learned languages such as HTML, CSS, JavaScript, and React later on. I created websites that help me to promote my school work and make me stand out!</div>
+        </>
+    ),
 }]
 
 
