@@ -2,7 +2,9 @@ import React from 'react'
 import { projectsInfo } from './data-projects'
 import Padding from '../components/Padding'
 
+
 const Projects = () => {
+    
 
     const projects = projectsInfo.map(project => 
 
@@ -17,7 +19,7 @@ const Projects = () => {
 
   return (
     <div>
-        <h1 className="section-heading">My Projects</h1>
+        <h1 className="section-heading" id="h">My Projects</h1>
         <Padding padding="25px"/>
         <div className="card-grid">
             {projects}
