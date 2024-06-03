@@ -8,7 +8,7 @@ const Projects = () => {
 
     const projects = projectsInfo.map(project => 
 
-        <div key={project.id}>
+        <div key={project.id} className="projects">
             <img src={project.image} className="image"/>
             <h2>{project.heading}</h2>
             {project.information}
@@ -22,7 +22,7 @@ const Projects = () => {
         <h1 className="section-heading">My Projects</h1>
         <h3>(Outside of school)</h3>
         <Padding padding="25px"/>
-        <div className="card-grid">
+        <div className="card-grid-triple">
             {projects}
         </div>
     </div>

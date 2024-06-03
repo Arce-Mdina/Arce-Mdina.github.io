@@ -117,6 +117,11 @@ span.highlight {
     grid-template-columns: repeat(2, 1fr);
 }
 
+.card-grid-triple {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .section-heading {
     font-size:3em;
     font-family: "Reddit Mono";
@@ -182,6 +187,12 @@ span.highlight {
 .image {
     width: 25vw; 
     height: auto; 
+    border-radius: 16px;
+}
+
+.projects {
+    border: 1px solid rgb(197, 197, 197);
+    margin-bottom: 35px;
     border-radius: 16px;
 }
 
