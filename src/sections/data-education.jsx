@@ -1,3 +1,6 @@
+import goldUKMT from '../assets/UKMT-gold.png'
+import silverUKMT from '../assets/UKMT-silver.png'
+
 // DCIS 
 export const dcisInfo = [{
     id: 0,
@@ -5,7 +8,7 @@ export const dcisInfo = [{
     information: (
         <>
             <div>
-                I was House Captain of Ubin for 4 consecutive years. And below is a list of all the things I have done.
+                I was House Captain of Ubin for 4 consecutive years (although I only got 3 badges as I was absent once when they gave them out ☹️)
             </div>
         </>
     ),
@@ -30,7 +33,12 @@ export const dcisInfo = [{
     heading: "UKMT Maths Challenges",
     information: (
         <>
-            <div>In Year 8 and 9, I entered the UKMT Maths Competition. I won the Gold Award and the Silver Award respectly.</div>
+            <div>In Year 8 and 9, I entered the UKMT Maths Competition. I won the Gold Award and the Silver Award in that order.</div>
+            <br></br>
+            <div className="card-grid">
+                <img src={goldUKMT} className="overlay-image"/>
+                <img src={silverUKMT} className="overlay-image"/>
+            </div>
         </>
     ),
 }, {
