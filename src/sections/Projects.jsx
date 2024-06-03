@@ -4,7 +4,7 @@ import Padding from '../components/Padding'
 
 
 const Projects = () => {
-    
+
 
     const projects = projectsInfo.map(project => 
 
@@ -13,6 +13,7 @@ const Projects = () => {
             <h2>{project.heading}</h2>
             {project.information}
             <Padding padding="40px"/>
+            <a className="live-site" href={project.link} target="_blank">Check Live Site &#8599;</a>
         </div>
     
     )
