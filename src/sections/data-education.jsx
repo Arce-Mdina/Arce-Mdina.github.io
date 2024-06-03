@@ -1,5 +1,5 @@
-import goldUKMT from '../assets/UKMT-gold.png'
-import silverUKMT from '../assets/UKMT-silver.png'
+import goldUKMT from '../assets/UKMT-gold.webp'
+import silverUKMT from '../assets/UKMT-silver.webp'
 
 // DCIS 
 export const dcisInfo = [{
