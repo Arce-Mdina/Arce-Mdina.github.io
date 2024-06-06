@@ -19,4 +19,15 @@ export const projectsInfo = [{
     information: (
         <></>
     )
+}, {
+    id: "covid-19",
+    heading: "Covid-19 Info App",
+    link: "https://william.mdina.eu/covid-19",
+    information: (
+        <>
+            <div>
+                A React app about Covid-19, its causes, treatments, preventions, the science behind it etc.
+            </div>
+        </>
+    )
 }]
