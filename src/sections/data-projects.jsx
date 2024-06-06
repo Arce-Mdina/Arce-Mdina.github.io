@@ -25,7 +25,11 @@ export const projectsInfo = [{
     heading: "Python Guide",
     link: "https://github.com/Arce-Mdina/python-guide",
     information: (
-        <></>
+        <>
+            <div>
+                A base on GitHub that serves to help people to get started or to deepen their knowledge in Python.
+            </div>
+        </>
     )
 }, {
     id: "covid-19",
