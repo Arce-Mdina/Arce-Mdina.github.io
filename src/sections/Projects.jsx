@@ -10,9 +10,9 @@ const Projects = () => {
 
         <div key={project.id} className="projects">
             <img src={project.image} className="image"/>
-            <h2>{project.heading}</h2>
-            {project.information}
-            <Padding padding="40px"/>
+            <h2 className="margins">{project.heading}</h2>
+            <div className="margins">{project.information}</div>
+            {/* <Padding padding="15px"/> */}
             <a className="live-site" href={project.link} target="_blank">Check Live Site &#8599;</a>
         </div>
     

@@ -1,6 +1,7 @@
 export const projectsInfo = [{
     id: "portfolio",
     heading: "Portfolio (this site)",
+    image: "",
     link: "https://william.mdina.eu",
     information: (
         <>
@@ -12,6 +13,7 @@ export const projectsInfo = [{
 }, {
     id: "malta-guide",
     heading: "Malta Tour Guide",
+    image: "",
     link: "https://william.mdina.eu/malta-guide",
     information: (
         <>
@@ -23,6 +25,7 @@ export const projectsInfo = [{
 }, {
     id: "python-guide",
     heading: "Python Guide",
+    image: "",
     link: "https://github.com/Arce-Mdina/python-guide",
     information: (
         <>
@@ -34,6 +37,7 @@ export const projectsInfo = [{
 }, {
     id: "covid-19",
     heading: "Covid-19 Info App",
+    image: "",
     link: "https://william.mdina.eu/covid-19",
     information: (
         <>

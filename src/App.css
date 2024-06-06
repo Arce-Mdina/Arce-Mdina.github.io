@@ -185,16 +185,24 @@ span.highlight {
 }
 
 .image {
-    width: 25vw; 
+    width: 100%; 
     height: auto; 
-    border-radius: 16px;
+    /* border-radius: 16px; */
 }
 
 .projects {
+    display: flex;
+    flex-direction: column;
     border: 1px solid rgb(197, 197, 197);
     margin-bottom: 35px;
     border-radius: 16px;
     overflow:hidden;
+    margin-right: 10px ;
+    margin-left: 10px ;
+}
+
+.margins {
+    padding: 5px;
 }
 
 .live-site {
@@ -205,6 +213,7 @@ span.highlight {
     color: rgb(26, 110, 199);
     text-decoration: none;
     font-weight: bold;
+    margin-top: auto;
     transition: 0.3s ease-in;
 }
 
