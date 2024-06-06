@@ -14,7 +14,11 @@ export const projectsInfo = [{
     heading: "Malta Tour Guide",
     link: "https://william.mdina.eu/malta-guide",
     information: (
-        <></>
+        <>
+            <div>
+                A website that aims to help tourists who are visiting Malta. Includes travel information and country information.
+            </div>
+        </>
     ),
 }, {
     id: "python-guide",
