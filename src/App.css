@@ -185,9 +185,14 @@ span.highlight {
 }
 
 .image {
-    width: 100%; 
+    width: 25vw; 
     height: auto; 
-    /* border-radius: 16px; */
+    border-radius: 16px;
+}
+
+.project-image {
+    width: 100%; 
+    height: auto;
 }
 
 .projects {

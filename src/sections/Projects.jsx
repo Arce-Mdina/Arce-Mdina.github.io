@@ -9,7 +9,7 @@ const Projects = () => {
     const projects = projectsInfo.map(project => 
 
         <div key={project.id} className="projects">
-            <img src={project.image} className="image"/>
+            <img src={project.image} className="project-image"/>
             <h2 className="margins">{project.heading}</h2>
             <div className="margins">{project.information}</div>
             {/* <Padding padding="15px"/> */}
