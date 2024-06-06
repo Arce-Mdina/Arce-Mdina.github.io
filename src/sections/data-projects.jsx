@@ -3,7 +3,11 @@ export const projectsInfo = [{
     heading: "Portfolio (this site)",
     link: "https://william.mdina.eu",
     information: (
-        <></>
+        <>
+            <div>
+                A website that details every single accomplishment I ever did and every single project I have ever created.
+            </div>
+        </>
     ),
 }, {
     id: "malta-guide",
